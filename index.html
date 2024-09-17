@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Form</title>
+</head>
+
+<body>
+    <div class="head-text">
+        <h1 class="header-title">Student Entry</h1>
+    </div>
+    <div class="body-text">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label class="label-title">Name</label>
+                        <input type="text" placeholder="first name">
+                        <input type="text" placeholder="last name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="label-title">Rollno</label>
+                        <input type="number" placeholder="ABC1234" maxlength="7">
+                    </td>
+                </tr>
+                <td>
+                    <label class="label-title">Subject:</label>
+                    <label class="label-data">Maths</label>
+                    <input type="checkbox" class="form-checkbox" name="Subjects" value="maths">
+                    <label class="label-data">English</label>
+                    <input type="checkbox" class="form-checkbox" name="Subjects" value="english">
+                    <label class="label-data">Computer</label>
+                    <input type="checkbox" class="form-checkbox" name="Subjects" value="computer">
+                    <label class="label-data">Chemistry</label>
+                    <input type="checkbox" class="form-checkbox" name="Subjects" value="chemistry">
+                    <label class="label-data">Physics</label>
+                    <input type="checkbox" class="form-checkbox" name="Subjects" value="Physics">
+                    </tr>
+                </td>
+                <tr>
+                    <td>
+                        <label class="label-title"> Gender:</label>
+                        <label class="label-data">Male</label>
+                        <input type="radio" name="Gender" value="male">
+                        <label class="label-data">Female</label>
+                        <input type="radio" name="Gender" value="women">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="label-title">Address</label>
+                        <textarea rows="5" cols="50"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="label-title">Phone Number: </label>
+                        <input type="text" placeholder="###-###-####">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="label-title">Hobbies </label>
+                        <label class="label-data">Coding</label>
+                        <input type="checkbox" name="Hobbies">
+                        <label class="label-data">Sing</label>
+                        <input type="checkbox" name="Hobbies">
+                        <label class="label-data">Dance</label>
+                        <input type="checkbox" name="Hobbies">
+                        <label class="label-data">Gaming</label>
+                        <input type="checkbox" name="Hobbies">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="label-title">State: </label>
+                        <select>
+                            <option>None</option>
+                            <option>Assam</option>
+                            <option>Delhi</option>
+                            <option>Gurajat</option>
+                            <option>Rajasthan</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" class="form-submit" >
+        </form>
+    </div>
+</body>
+
+</html>
